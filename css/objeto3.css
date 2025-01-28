@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela&family=Varela+Round&display=swap');
+
+body{
+    font-family: "varela round", serif;
+    color: rgb(89, 89, 90);
+    
+}
+table.destaque {
+    margin: 10px 10px 10px 0;
+    background-color: #666;  
+    padding: 15px; 
+}
+/* tem que mudar a cor do link de azul para branco aqui no a.link devido que o padrao do link é azul e tem que mudar esta regra */
+a.link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+}
+.topo{
+    background-color: #666;
+    width: 100%;
+    height: 100px;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: #444;
+    padding: 0 10px;
+}
+.destaque{
+    display: inline-block;
+    width: 60%;
+    padding-top: 15px;
+    color: white;
+    background-color: #444;
+}
+
+.lidos{
+    display: inline-block;
+    width: 40%;
+    
+}
+div.square{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(179, 174, 174);
+    
+}
