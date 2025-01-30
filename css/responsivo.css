@@ -1,0 +1,73 @@
+@media (max-width: 600px) {
+    div.uno{
+        height: 100px;
+        width: 100px;
+        background-color: green;
+    }
+    div.dos{
+        height: 100px;
+        width: 100px;
+        background-color: yellow;
+    }
+    div.tres{
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+    }
+    div.quatro{
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+    }
+}
+@media (min-width: 600px) {
+    div.uno{
+        height: 100px;
+        width: 100px;
+        border: 2px solid;
+        background-color: white;
+        
+    }
+    div.dos{
+        height: 100px;
+        width: 100px;
+        border: 3px solid red;
+        background-color: black;
+        
+    }
+    div.tres{
+        height: 100px;
+        width: 100px;
+        border: 2px  blue;
+        background-color: yellow;
+        
+        div.quatro{
+            height: 100px;
+            width: 100px;
+            
+        }
+        
+    }
+}
+    
+    /*
+div.uno{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+}
+div.dos{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+div.tres{
+    height: 30px;
+    width: 30px;
+    background-color: purple;
+}
+div.quatro{
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+}

@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(42, 7, 138);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+figcaption{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+@media (max-width: 768px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width: 100%;
+    }
+}
+@media (min-width: 768px){
+    .main{
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+    }
+    div{
+        width: 50%
+
+    }
+
+    img{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px){
+    
+    .main{
+        display: flex;
+        flex-direction: row;
+        width: 80%
+    }
+    div{
+        width: 33%;
+    }
+
+    img{
+        width: 100%;
+    }
+}
