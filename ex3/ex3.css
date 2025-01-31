@@ -1,0 +1,156 @@
+@import url("../ex3/reset.css");
+
+.navegador > a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 768px){
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .navegador a{
+        margin: 5px 0;
+        background-color: cornflowerblue;
+        font-size: 1.5rem;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-radius: 5px;
+
+    }
+    .imgbanner img{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    section.texto{
+        width: 100%;
+       
+    }
+
+    section.texto h3{
+        font-size: 1rem;
+    }
+    section.texto p{
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    article{
+        margin: 5px 0;
+        padding: 2px 0;
+        background-color: cornflowerblue;
+        border-radius: 10px;
+    }
+    .pe p {
+        background-color: cornflowerblue;
+        padding: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+@media (min-width:768px ){
+    header{
+        display: flex;
+        flex-direction: row;
+        margin: 5px;
+        
+    }
+    .navegador a{
+        margin: 5px 0;
+        background-color: cornflowerblue;
+        font-size: 1.5rem;
+        width: 100vw;
+        border-radius: 5px;
+    }
+    .imgbanner img{
+        margin: 5px;
+        border-radius: 10px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .texto{
+        width: 100%;
+    }
+    .texto h3{
+        font-size: 1rem;
+        
+    }
+    section.texto {
+        font-size: 1rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        width: 100%;
+    }
+    article{
+        margin: 5px  ;
+        padding: 2px 0;
+        background-color: cornflowerblue;
+        border-radius: 10px;
+        width:25%;
+    }
+    .pe p {
+        background-color: cornflowerblue;
+        padding: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+}
+@media (min-width:992px){
+    header{
+        display: flex;
+        flex-direction: row;
+        margin: 5px;
+        
+    }
+    .navegador a{
+        margin: 5px 0;
+        background-color: cornflowerblue;
+        font-size: 1.5rem;
+        width: 100vw;
+        border-radius: 5px;
+    }
+    .imgbanner img{
+        margin: 5px;
+        border-radius: 10px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .texto{
+        width: 100%;
+    }
+    .texto h3{
+        font-size: 1rem;
+        
+    }
+    section.texto {
+        font-size: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+    }
+    article{
+        margin: 5px  ;
+        padding: 2px 0;
+        background-color: cornflowerblue;
+        border-radius: 10px;
+        width:49%;
+    }
+    .pe p {
+        background-color: cornflowerblue;
+        padding: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+}
