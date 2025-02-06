@@ -1,0 +1,117 @@
+@import url("../ex4/reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", serif;
+    background-color: rgb(172, 170, 170);
+
+}
+
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border: 1px black solid;
+        padding: 20px 0;
+        width: 100%;
+        
+    }
+    
+    main{
+        background-color: #00122c;
+    }
+     p, li {
+        color: white;
+    }
+    h1, h2{
+        color: blue;
+    }
+    footer > article{
+        background-color: #00122c;
+        height: 30px;
+    
+    }
+    .navegador {
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100vw; 
+    }
+    .navegador a {
+        text-decoration: none;
+        color: black;
+        
+        margin: 10px;
+        
+    }
+    .navegador h1{
+        display: inline-block;
+        flex-direction: row;
+    }
+    .navegador img {
+        width: 15vw;
+        display: inline-block;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .click button{
+        background-color: blue;
+        color: white;
+        border-radius: 20px;
+        padding: 15px;
+    }
+    .click{
+        padding-top: 25px;
+    
+    }
+    .bloco_txt img{
+        width: 20vw;
+    }
+    main{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+    }
+    main .bloco_txt{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width:25vw ;
+        padding: 50px;
+    }
+    .bloco_txt li{
+        padding-bottom: 15px;
+    }
+    
+    .social_media i{
+        color: white;
+        width: 2vw;
+    }
+    span{
+        color: blue;
+    }
+    i{
+        font-size: 0.8rem;
+    }
+    
+    input{
+        padding: 15px;
+        border-radius: 40px;
+    }
+    
+    .plane {
+        display: inline-block;
+        flex-direction: row;
+        justify-content: center;
+        border-radius: 20px;
+        width: 10px;
+        background-color: blue;
+    } 
+
+    .rotapé {
+        padding-top:none ;
+    }
